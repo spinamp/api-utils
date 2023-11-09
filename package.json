@@ -1,0 +1,14 @@
+{
+    "name": "api-utils",
+    "version": "0.0.1",
+    "description": "Utilities for interacting with the Spinamp API",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "preinstall": "npm run build"
+    }
+}
