@@ -10,9 +10,5 @@
     "scripts": {
         "build": "tsc",
         "preinstall": "npm run build"
-    },
-    "devDependencies": {
-        "@types/node": "^20.9.0",
-        "typescript": "^4.6.4"
     }
 }
