@@ -1,1 +1,1 @@
-export { ExternalLinkUser, getSoundUrlFromHandle, WebsiteType, getWebsiteTypeFromUrl, SupportedWebsites } from './types/externalLink';
+export { ExternalLinkUser, getSoundUrlFromHandle, WebsiteType, getWebsiteTypeFromUrl, deriveTwitterHandleFromUrl, SupportedWebsites } from './types/externalLink';
