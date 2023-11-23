@@ -90,7 +90,7 @@ export const SupportedWebsites: Website[] = [
   {
     id: 'itunes',
     profileRegex:
-      '^https?://music.apple.com/(?:us/)?artist/([a-zA-Z0-9_-]+)/?$',
+      '^https?://music.apple.com/(?:[a-z]{2}/)?artist/([a-zA-Z0-9_-]+)/?$',
     name: 'Apple Music',
     placeholder: 'https://music.apple.com/',
   },
