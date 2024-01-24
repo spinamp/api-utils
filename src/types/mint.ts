@@ -1,6 +1,6 @@
 export type Asset = {
   symbol: string;
-  decimals: string;
+  decimals: number;
   address: string;
 };
 
@@ -18,7 +18,7 @@ export type UnsignedTransaction = {
   value?: string;
   data: string;
   gasLimit?: string;
-  chainId?: number;
+  chainId: number;
 };
 
 type Error = {
