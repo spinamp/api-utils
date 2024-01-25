@@ -1,6 +1,6 @@
 {
     "name": "api-utils",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "Utilities for interacting with the Spinamp API",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
