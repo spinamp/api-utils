@@ -19,5 +19,5 @@ export {
   NotFollowingError,
 } from "./types/mint";
 export {
-  getFeedItemsId,
+  getFeedItemId,
 } from "./types/feedItem";
