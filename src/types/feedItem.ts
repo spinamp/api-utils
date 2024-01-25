@@ -1,4 +1,4 @@
-export const getFeedItemsId = (data: any): string => {
+export const getFeedItemId = (data: any): string => {
     if (!data.userId || !data.entityType || !data.entityId) {
         throw new Error('Missing feedItem data')
     }
