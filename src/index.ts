@@ -18,3 +18,6 @@ export {
   MintPreconditionError,
   NotFollowingError,
 } from "./types/mint";
+export {
+  getFeedItemsId,
+} from "./types/feedItem";
