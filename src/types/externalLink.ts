@@ -9,6 +9,7 @@ export type ExternalLinkUser = {
   url: string
   userId: string
   type: WebsiteType
+  updatedAtTime: Date
 }
 
 export type WebsiteType =
