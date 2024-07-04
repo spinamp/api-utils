@@ -17,7 +17,6 @@ export {
   MintAmountExceededError,
   MintPreconditionError,
   NotFollowingError,
+  MintError,
 } from "./types/mint";
-export {
-  getFeedItemId,
-} from "./types/feedItem";
+export { getFeedItemId } from "./types/feedItem";
