@@ -22,7 +22,7 @@ export type UnsignedTransaction = {
 };
 
 type Error = {
-  reason: string;
+  reason: MintError;
   metadata?: any;
 };
 
@@ -86,3 +86,15 @@ export type MulticallMintResponse = {
   excludedTracks: TrackMintResult[];
   mintDetails: BaseMintDetails;
 };
+
+export enum MintError {
+  NOT_FOR_SALE = "not for sale",
+  SOLD_OUT = "sold out",
+  SALE_NOT_STARTED = "sale not started",
+  SALE_ENDED = "sale ended",
+  USER_LIMIT_REACHED = "user limit reached",
+  NOT_IN_ALLOW_LIST = "user not in allow list",
+  MINT_LIMIT_EXCEEDED = "mint limit exceeded",
+  PRECONDITION_NOT_MET = "precondition not met",
+  NOT_SUPPORTED = "not supported",
+}
